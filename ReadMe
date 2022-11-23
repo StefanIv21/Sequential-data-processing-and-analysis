@@ -1,0 +1,42 @@
+Toata tema a durat 2 zile
+
+Taksk 2.1
+      -am luat 5 liste care pointeza catre primele 5 noduri din lista
+      -am calculat in 2 functii separate deviatia si media
+      -daca elem din mijloc se incadra in intervalul cerut,fiecare lista pointa catre urmatorul nod
+      -daca nu,cu o variabila 'ok',am insemnat toate nodurile cu probleme
+      -la final am parcurs toata lista de la capat si am sters toate nodurile cu ok=1
+Tak 2.2
+        -am luat 5 liste care pointeza catre primele 5 noduri din lista
+        -am luat o functie sortare
+        -in functie am luat o lista cu cele 5 elem din listele create,am aplicat bubble sort,iar elem din mijloc l am adaugat intr o noua lista
+        -am eliberat lista veche,si am returnat lista noua cu elem cerute
+Tak 2.2.1
+        -am luat 5 liste care pointeza catre primele 5 noduri din lista
+        -am luat o functie sortare
+        -in funtie am luat o lista cu cele 5 elem din listele create,am aplicat funtia de medie,iar elem din mijloc l am adaugat intr o noua lista
+        -am eliberat lista veche,si am returnat lista noua cu elem cerute
+Tak 2.3
+        -am luat 2 liste care pointeza catre primele 2 noduri din lista
+        -daca diferenta lor de timp era in intervalul cerut,fiecare lista pointa catre urmatorul nod
+        -daca nu, ultimului nod i am recalculat valoarea si timpul,facand medie aritmedica dintre nod respectiv si cel precedent
+        -dupa cele calculate,am trecut la urmatoarele noduri,fiecare lista pointand care urmatorul nod
+Task 2.4
+      -am luat 2 liste care pointeza catre primele 2 noduri din lista
+       -daca diferenta de timp dintre ele este mai mica de o secunda,trecem la urmatoarele noduri,fiecare lista pointand care urmatorul nod
+      -daca diferenta de timp dintre ele este mai mare de o secunda,atunci iau in 6 liste cele 3 noduri precedente si umatoarele 3
+      -am calculat timestamp ul nodului care urmeaza sa fie adaugat
+       -am calculat C,w0,w1,w2 si f in functii separate, asemenea formulelor date
+       -am adaugat un nou nod cu valorile create intre cele 2 liste ,cu ajutorul unei functii de adaugare
+       -daca timestampul urmatorului nod de adaugat este mai mica daca timestampul nodului din dreapta intervalului,am adaugat alte noduri
+       -altfel,am trecut la urmatoarele noduri,fiecare lista pointand catre urmatorul nod
+Task 2.5
+        - cu un max si min am calculat cele mai mare,respectiv cel mai mic elem din lista
+         -daca max si min erau de tip int,fara zecimala,ele deveneau capetele de referinta ale intervalelor
+         -daca nu,am luat cele mai apropriate numere de max si min,ele devenind capetele de referinta ale intervalelor
+         -am luat o variabila mijloc care este mai mare cu delta  decat cel mai mic cap al intervalului
+         -in intervalul creat,intre cel mai mic capat si mijloc,am luat o variabila nr care numara cate elemente din lista se afla in interval
+         -dupa parcurgerea tutor elementelor,am afisat intervalul cu numarul  de elemente
+         -cel mai mic cap a preluat numarul variabilei mijloc,iar variabila mijloc a crescut cu delta
+         -am repetat etapele anterioare pentru aflarea numarului de elem in intervalul respectiv,pana cand variabila mijloc devine egala cu capatul cel mare de referinta.         
+         
